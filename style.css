@@ -1,0 +1,131 @@
+
+
+body{
+    background: #f5f6f7;
+    color: white;
+}
+.menu{
+    width: 180px;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    margin-right: 200px;
+}
+.input-group{
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.body-title {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fff;
+    margin: 20px;
+    text-align: start;
+    padding-top: 20px;
+}
+
+.body-text {
+    font-size: 12px;
+    line-height: 1.4;
+    background-color: #fff;
+    padding: 0 20px;
+    text-align: start;
+}
+
+
+/* container */
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    /* booxeeess */
+}
+.box2{
+    height: 150px;
+    gap: 5rem;
+    width: 350px;
+    margin: 10px;
+    justify-content: end;
+    border-radius: 4px;
+    box-shadow: 0 2px 14px 0 rgba(47, 60, 83, 0.16);
+}
+.box3{
+    width: 175px;
+    height: 150px;
+    margin: 10px 5px 10px 2px;
+    justify-content: end;
+    border-radius: 4px;
+    box-shadow: 0 2px 14px 0 rgba(47, 60, 83, 0.16);
+    
+}
+
+.box{
+    background: #fff;
+    gap:5rem; 
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    justify-content: end;
+    box-shadow: 0 2px 14px 0 rgba(47, 60, 83, 0.16);
+    border-radius: 4px;
+   
+        
+}
+
+/* images section */
+.img-top{
+    height: 120px;
+    background: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img1{
+    background-image: url(./images/img1.jpg);
+}
+.img2{
+    background-image: url(./images/img2.jpg);
+}
+.img3{
+    background-image: url(./images/img3.jpg);
+}
+.img4{
+    background-image: url(./images/img4.jpg);
+}
+.img5{
+    background-image: url(./images/img5.jpg);
+}
+.img6{
+    background-image: url(./images/img6.jpg);
+}
+
+/* button section */
+
+.btn{
+
+    margin: 10px auto;
+    margin-left: 550px;
+    margin-bottom: 10px;
+    display: block;
+    width: 200px;
+    background: rgb(64, 191, 246);
+    background: linear-gradient(90deg, rgba(64, 191, 246, 1)0%, rgba(110, 102, 224, 1)100%);
+    border: none;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 300;
+    box-shadow: 0 2px 14px 0 rgba(47, 60, 83, 0.3);
+}
+
+@media (max-width:768px) {
+    .box,.box2,.box3{
+        width:100%;
+    }
+}
+
+
+
